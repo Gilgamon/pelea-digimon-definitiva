@@ -1,0 +1,220 @@
+#final{
+    color: azure;
+    margin: 10px;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#listo{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+    color: #0a0a0a;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+#listo:active{
+    background-image: none;
+}
+#listo:hover{
+    background-color: #FF1E1E;
+    background-image: none;
+}
+#tit{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;  
+}
+#pelea:active{
+    background-image: none;
+}
+#pelea:hover{
+    background-color: #FF1E1E;
+    background-image: none;
+}
+
+#alial{
+    display: flex;
+    justify-content: space-around;
+}
+#enial{
+    display: flex;
+    justify-content: space-around;
+}
+#pelal{
+    display: flex;
+    justify-content: center;
+    
+}
+#enemigo{
+    color: rgb(243, 54, 7);
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+#stateni{
+    color: #050505;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 1px 1px;
+}
+#statali{
+    color: #050505;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    font-size:x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 1px 1px;
+}
+#aliado{
+    color: azure;
+    margin: 10px;
+    font-size:xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+#regre{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+    color: #0a0a0a;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+#pelea{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+    color: #0a0a0a;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+#obl{
+    color: #FF1E1E;
+    background-color: rgb(236, 239, 16);
+}
+.menu{
+    display: none;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+    -webkit-box-shadow: 6px 5px 24px #666666;
+    -moz-box-shadow: 6px 5px 24px #666666;
+    box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+    color: #0a0a0a;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+}
+.sub{
+    display: flex;
+    justify-content: space-around;
+}
+.selec{
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    background-color:#e5d8f0;
+    background-image: url(/assets/huevo.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+.adv{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin: 1px 1px;
+}
+.titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(248, 172, 8);
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+}
+button:hover{
+    background: #FF884B;
+    background-image: url(/assets/huevo2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+button:active{
+    background: #DD5353;
+    background-image: url(/assets/huevoroto2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+button{
+    display:inline-block;
+    justify-content:space-around;
+    margin: 0px 10px ;
+}
+body{
+    background-color: black;
+    background-image: url(/assets/fondo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+@media (max-width:1000px){
+    #alial{
+    flex-direction:column;}
+    #enial{
+        flex-direction:column;
+    }
+    .menu{
+        display: table-column; 
+        margin: 0px 10px ;
+        border: #e5d8f0;   
+    }
+    .desaparece{
+        display: none;
+    }
+    .desaparece2{
+        display: none;
+    }
+}

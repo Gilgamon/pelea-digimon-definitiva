@@ -1,0 +1,28 @@
+[{"nombre":"Agumon", 
+"attributo":"Vacuna", 
+"atributoElemental":"Fuego",
+"familia":"Rugido de Dragon",
+"hp":200,
+"skill":34
+},
+{"nombre":"Gabumon", 
+"attributo":"Vacuna", 
+"atributoElemental":"Hielo",
+"familia":"espiritu de la naturaleza",
+"hp":190,
+"skill":40
+},
+{"nombre":"Hawkmon", 
+"attributo":"Data", 
+"atributoElemental":"Viento",
+"familia":"Espiritu de la naturaleza",
+"hp":180,
+"skill":50
+},
+{"nombre":"Keramon", 
+"attributo":"Virus", 
+"atributoElemental":"Oscuridad",
+"familia":"soldado pesadilla",
+"hp":190,
+"skill":40
+}]

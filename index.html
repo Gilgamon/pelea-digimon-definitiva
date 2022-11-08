@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelea Digimon Inicio</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body id="miPagina">
+    <Header>
+            <section class="titulo">
+                <h1 id="tit">PELEA DIGIMON</h1>
+            </section>
+            <Section class="sub">
+                <h2 class="adv" id="obl">Coloque su nombre si desea, el seleccionar los digimons es obligatorio</h2>
+            </Section>
+        </Header>
+        <br>
+    <form>
+        <input id="tamer" name="tamer" placeholder="Ingrese nombre de Tamer" required>
+    </form>
+        <br>
+        <h3>Seleccione su Digimon</h3>
+        <div id="aliado">Aun no seleccionaste digimon</div>
+        <Section class="sub">
+        <div id="statali">Estadisticas</div>
+        </Section>
+        <br>
+        <div id="alial">
+        <button class="menu" onclick="menu()">Digis</button>
+        <button class="selec desaparece"id="ba1"><img src="assets/Agu.gif" width="250" height="250"/></button>
+        <button class="selec desaparece"id="ba2"><img src="assets/Gabu.gif" width="250"height="250"/></button>
+        <button class="selec desaparece"id="ba3"><img src="assets/Hawk.gif" width="250"height="250"/></button>
+        <button class="selec desaparece"id="ba4"><img src="assets/Kera.gif" width="250"height="250"/></button>
+        </div>
+        <div id="pelal">
+            <button id="listo">Listo!</button>
+        </div>
+        <h3>Seleccione su enemigo</h3>
+        <div id="enemigo">Aun no seleccionaste enemigo</div>
+        <Section class="sub">
+        <div id="stateni">Estadisticas</div>
+        </Section>
+        <br>
+        <div id="enial">
+        <button class="menu" onclick="menu2()">Digis</button>
+        <button class="selec desaparece2" id="be1"><img src="assets/Agu.gif" width="250" height="250"/></button>
+        <button class="selec desaparece2" id="be2"><img src="assets/Gabu.gif" width="250"height="250"/></button>
+        <button class="selec desaparece2" id="be3"><img src="assets/Hawk.gif" width="250"height="250"/></button>
+        <button class="selec desaparece2" id="be4"><img src="assets/Kera.gif" width="250"height="250"/></button>
+        </div>
+        <script>
+            function menu(){
+            let men=document.getElementsByClassName('selec');
+            for(var i=0; i < men.length; i+=1){
+            men[i].classList.toggle('desaparece')
+            }}
+            function menu2(){
+            let men=document.getElementsByClassName('selec');
+            for(var i=0; i < men.length; i+=1){
+            men[i].classList.toggle('desaparece2')
+            }}
+        </script>
+    <script src="./js/main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<!--<script src="./js/Libreria.js"></script>-->
+</body>
+</html>
